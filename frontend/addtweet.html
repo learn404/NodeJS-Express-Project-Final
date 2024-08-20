@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Tweet</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles.addTweet.css" />
+  </head>
+  <body>
+    <header>
+      <div class="profil-logo">
+        <img src="./public/images/logo_nb.png" alt="logo" />
+      </div>
+      <div class="twitter-logo">
+        <img src="./public/images/Twitter Logo.svg" alt="twitter" />
+      </div>
+      <div class="features-logo">
+        <img src="./public/images/Feature stroke icon.svg" alt="features" />
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="back-button">
+          <a href="home.html">
+            <button class="secondary-button" type="button">Retour</button>
+          </a>
+        </div>
+      </section>
+      <section class="addTweet">
+        <form>
+          <label for="tweet">Tweet :</label>
+          <textarea name="tweet" id="tweet"></textarea>
+          <button type="button" onclick="addTweet()">Envoyer</button>
+        </form>
+      </section>
+      
+    </main>
+    <div class="navigation">
+        <ul>
+          <li>
+            <a href="#">
+              <img src="./public/images/Home Solid Icon.svg" alt="arrow" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./public/images/Search Stroke Icon.svg" alt="arrow" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./public/images/Bell Stroke Icon.svg" alt="arrow" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./public/images/Mail Stroke Icon.svg" alt="arrow" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    <script src="js/api/addTweets.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

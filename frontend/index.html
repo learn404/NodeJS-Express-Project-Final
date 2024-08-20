@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <main class="form_register_login">
+          <form>
+            <h1 class="title_form">Connexion</h1>
+            <div>
+              <label for="email"></label>
+              <input type="email" name="email" placeholder="Email" />
+            </div>
+            <div>
+              <label for="password"></label>
+              <input type="password" name="password" placeholder="******" />
+            </div>
+
+            <button type="button" onclick="login()" class="primary-button">
+              Se connecter
+            </button>
+            <a href="register.html">
+              <button class="secondary-button" type="button">S'inscrire</button>
+            </a>
+          </form>
+        </main>
+      </section>
+    </main>
+
+    <script src="js/script.js"></script>
+    <script src="js/api/auth.js"></script>
+  </body>
+</html>

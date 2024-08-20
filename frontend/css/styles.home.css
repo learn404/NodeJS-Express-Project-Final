@@ -1,0 +1,68 @@
+.tweet {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-bottom: 2px solid #BDC5CD;
+    padding: 1rem;
+}
+
+.tweet:first-child  {
+    border-top: none;
+}
+
+.tweet:last-child {
+    border-bottom: none;
+}
+
+.tweet-header {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.tweet-content {
+    margin-top: 0.5rem;
+}
+
+.tweet-author {
+
+    font-weight: 600;
+
+}   
+.tweet-date {
+    color: #687684;
+    font-weight: 400;
+}
+.tweet-footer-content {
+    display: flex;
+    gap: 3rem;
+}
+.tweet-footer-content-details {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tweet-footer-content-details img {
+    width: 0.75rem;
+    height: 0.75rem;
+}
+
+.add-tweet-button {
+    position : fixed;
+    bottom: 4rem;
+    right: 37vw;
+    cursor: pointer;
+}
+
+.liked  {
+    fill: #FF0000;
+    background-color: #FF0000;
+}
+
+.heart-icon path {
+    fill: #FF0000;
+    background-color: #FF0000;
+}
+

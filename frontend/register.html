@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <form>
+        <h1>Inscription</h1>
+        <div>
+          <label for="email"></label>
+          <input type="email" name="email" id="email" placeholder="Email"/>
+        </div>
+        <div>
+          <label for="name"></label>
+          <input type="text" name="name" id="name" placeholder="Nom" />
+        </div>
+        <div>
+          <label for="username"></label>
+          <input type="text" name="username" id="username" placeholder="Nom d'utilisateur" />
+        </div>
+        <div>
+          <label for="password"></label>
+          <input type="password" name="password" id="password" placeholder="******" />
+        </div>
+        <div class="buttons">
+          <button type="button" onclick="register()" class="primary-button">Register</button>
+          <a href="index.html">
+            <button class="secondary-button" type="button">Se connecter</button>
+          </a>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
+
+<script src="js/script.js"></script>
+<script src="js/api/auth.js"></script>
